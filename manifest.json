@@ -3,6 +3,15 @@
 	"id": "Notex.reflectionsphere",
 	"name": "Reflection Sphere",
 	"description": "Adds a reflection sphere to every box reflection entity",
+	"options": [
+		{
+			"name": "Add a reflection sphere to Agent 47",
+			"tooltip": "Disco head!",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": ["agent47"]
+		}
+	],
 	"authors": ["Notex"],
 	"contentFolders": ["content"],
 	"dependencies": [],
