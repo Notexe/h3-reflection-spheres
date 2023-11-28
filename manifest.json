@@ -3,13 +3,10 @@
 	"id": "Notex.reflectionsphere",
 	"name": "Reflection Sphere",
 	"description": "Adds a reflection sphere to every box reflection entity",
-	"authors": [
-		"Notex"
-	],
-	"contentFolders": [
-		"content"
-	],
+	"authors": ["Notex"],
+	"contentFolders": ["content"],
 	"dependencies": [],
 	"version": "1.0.0",
-	"frameworkVersion": "2.29.0"
+	"frameworkVersion": "2.33.6",
+	"updateCheck": "https://github.com/Notexe/h3-reflection-spheres/releases/latest/download/updates.json"
 }

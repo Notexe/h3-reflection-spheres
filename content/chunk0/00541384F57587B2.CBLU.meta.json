@@ -1,13 +1,13 @@
 {
-    "hash_value": "00541384F57587B2",
-    "hash_path": "[modules:/zboxreflectionentity2.class].pc_entityblueprint",
-    "hash_offset": 29123209,
-    "hash_size": 2147483737,
-    "hash_resource_type": "CBLU",
-    "hash_reference_table_size": 0,
-    "hash_reference_table_dummy": 0,
-    "hash_size_final": 133,
-    "hash_size_in_memory": 40,
-    "hash_size_in_video_memory": 4294967295,
-    "hash_reference_data": []
+	"hash_value": "00541384F57587B2",
+	"hash_path": "[modules:/zboxreflectionentity2.class].pc_entityblueprint",
+	"hash_offset": 29123209,
+	"hash_size": 2147483737,
+	"hash_resource_type": "CBLU",
+	"hash_reference_table_size": 0,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 133,
+	"hash_size_in_memory": 40,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": []
 }

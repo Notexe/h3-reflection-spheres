@@ -1,18 +1,18 @@
 {
-    "hash_value": "0042EF710FFD9661",
-    "hash_path": "[modules:/zboxreflectionentity2.class].pc_entitytype",
-    "hash_offset": 7846739,
-    "hash_size": 2147484301,
-    "hash_resource_type": "CPPT",
-    "hash_reference_table_size": 13,
-    "hash_reference_table_dummy": 0,
-    "hash_size_final": 1098,
-    "hash_size_in_memory": 605,
-    "hash_size_in_video_memory": 4294967295,
-    "hash_reference_data": [
-        {
-            "hash": "[modules:/zboxreflectionentity2.class].pc_entityblueprint",
-            "flag": "1F"
-        }
-    ]
+	"hash_value": "0042EF710FFD9661",
+	"hash_path": "[modules:/zboxreflectionentity2.class].pc_entitytype",
+	"hash_offset": 7846739,
+	"hash_size": 2147484301,
+	"hash_resource_type": "CPPT",
+	"hash_reference_table_size": 13,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 1098,
+	"hash_size_in_memory": 605,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": [
+		{
+			"hash": "[modules:/zboxreflectionentity2.class].pc_entityblueprint",
+			"flag": "1F"
+		}
+	]
 }
