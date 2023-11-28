@@ -6,4 +6,4 @@ Adds a reflection sphere to every box reflection entity
 
 ---
 
-`Notex.reflectionsphere` v1.0.0, by Notex. This README was automatically generated from the mod's manifest.
+`Notex.reflectionsphere` v1.1.0, by Notex. This README was automatically generated from the mod's manifest.
