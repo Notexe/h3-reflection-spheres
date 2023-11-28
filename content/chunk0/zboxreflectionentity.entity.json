@@ -1,0 +1,233 @@
+{
+	"tempHash": "00F125781D684386",
+	"tbluHash": "00234281E26CCDBC",
+	"rootEntity": "feed11f6954c262c",
+	"entities": {
+		"feed11f6954c262c": {
+			"parent": null,
+			"name": "zboxreflectionentity",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+
+			},
+			"propertyAliases": {
+				"m_vGlobalSize": [
+					{
+						"originalProperty": "m_vGlobalSize",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_vSampleOffset": [
+					{
+						"originalProperty": "m_vSampleOffset",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_fWeight": [
+					{
+						"originalProperty": "m_fWeight",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_fColorIntensity": [
+					{
+						"originalProperty": "m_fColorIntensity",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_Color": [
+					{
+						"originalProperty": "m_Color",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_eBoundsType": [
+					{
+						"originalProperty": "m_eBoundsType",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_eType": [
+					{
+						"originalProperty": "m_eType",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_bEnabled": [
+					{
+						"originalProperty": "m_bEnabled",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_bHighPriority": [
+					{
+						"originalProperty": "m_bHighPriority",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_eRoomBehaviour": [
+					{
+						"originalProperty": "m_eRoomBehaviour",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_bForceVisible": [
+					{
+						"originalProperty": "m_bForceVisible",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_mTransform": [
+					{
+						"originalProperty": "m_mTransform",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_bVisible": [
+					{
+						"originalProperty": "m_bVisible",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_bIsPrivate": [
+					{
+						"originalProperty": "m_bIsPrivate",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_bVisibleInBoxReflection": [
+					{
+						"originalProperty": "m_bVisibleInBoxReflection",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_nViewportVisibility": [
+					{
+						"originalProperty": "m_nViewportVisibility",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				],
+				"m_eidParent": [
+					{
+						"originalProperty": "m_eidParent",
+						"originalEntity": "feedb29c5a0066ff"
+					}
+				]
+			}
+		},
+		"feedf2c1485c2bcd": {
+			"parent": "feed11f6954c262c",
+			"name": "fx_sphere_1m",
+			"factory": "[assembly:/_pro/effects/geometry/misc/fx_basic_shapes.wl2?/fx_sphere_1m.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bRemovePhysics": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed11f6954c262c"
+				}
+			}
+		},
+		"feedb29c5a0066ff": {
+			"parent": "feed11f6954c262c",
+			"name": "zboxreflectionentity",
+			"factory": "[modules:/zboxreflectionentity2.class].pc_entitytype",
+			"blueprint": "[modules:/zboxreflectionentity2.class].pc_entityblueprint"
+		},
+		"feed346fa4f2a154": {
+			"parent": "feedf2c1485c2bcd",
+			"name": "steel_stainless_clean_a",
+			"factory": "[assembly:/_pro/environment/materials/generic/metal/steel_stainless_clean_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/generic/metal/steel_stainless_clean_a.mi].pc_entityblueprint",
+			"properties": {
+				"Active": {
+					"type": "bool",
+					"value": true
+				},
+				"Override": {
+					"type": "bool",
+					"value": true
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedf2c1485c2bcd"
+					]
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 1
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}
