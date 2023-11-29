@@ -1,0 +1,26 @@
+{
+    "hash_value": "0031DE38F5E04E61",
+    "hash_path": "[assembly:/templates/aspectdummy.aspect]([modules:/zboxreflectionentity2.class].entitytype,[modules:/zspatialentity.class].entitytype).pc_entitytype",
+    "hash_offset": 22219948,
+    "hash_size": 2147483648,
+    "hash_resource_type": "ASET",
+    "hash_reference_table_size": 31,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 12,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[modules:/zboxreflectionentity2.class].pc_entitytype",
+            "flag": "1F"
+        },
+        {
+            "hash": "[modules:/zspatialentity.class].pc_entitytype",
+            "flag": "1F"
+        },
+        {
+            "hash": "[assembly:/templates/aspectdummy.aspect]([modules:/zboxreflectionentity2.class].entitytype,[modules:/zspatialentity.class].entitytype).pc_entityblueprint",
+            "flag": "1F"
+        }
+    ]
+}

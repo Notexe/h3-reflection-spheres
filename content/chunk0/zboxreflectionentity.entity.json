@@ -6,113 +6,8 @@
 		"feed11f6954c262c": {
 			"parent": null,
 			"name": "zboxreflectionentity",
-			"factory": "[modules:/zspatialentity.class].pc_entitytype",
-			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-			"properties": {},
-			"propertyAliases": {
-				"m_vGlobalSize": [
-					{
-						"originalProperty": "m_vGlobalSize",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_vSampleOffset": [
-					{
-						"originalProperty": "m_vSampleOffset",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_fWeight": [
-					{
-						"originalProperty": "m_fWeight",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_fColorIntensity": [
-					{
-						"originalProperty": "m_fColorIntensity",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_Color": [
-					{
-						"originalProperty": "m_Color",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_eBoundsType": [
-					{
-						"originalProperty": "m_eBoundsType",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_eType": [
-					{
-						"originalProperty": "m_eType",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_bEnabled": [
-					{
-						"originalProperty": "m_bEnabled",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_bHighPriority": [
-					{
-						"originalProperty": "m_bHighPriority",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_eRoomBehaviour": [
-					{
-						"originalProperty": "m_eRoomBehaviour",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_bForceVisible": [
-					{
-						"originalProperty": "m_bForceVisible",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_mTransform": [
-					{
-						"originalProperty": "m_mTransform",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_bVisible": [
-					{
-						"originalProperty": "m_bVisible",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_bIsPrivate": [
-					{
-						"originalProperty": "m_bIsPrivate",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_bVisibleInBoxReflection": [
-					{
-						"originalProperty": "m_bVisibleInBoxReflection",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_nViewportVisibility": [
-					{
-						"originalProperty": "m_nViewportVisibility",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				],
-				"m_eidParent": [
-					{
-						"originalProperty": "m_eidParent",
-						"originalEntity": "feedb29c5a0066ff"
-					}
-				]
-			}
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zboxreflectionentity2.class].entitytype,[modules:/zspatialentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zboxreflectionentity2.class].entitytype,[modules:/zspatialentity.class].entitytype).pc_entityblueprint"
 		},
 		"feedf2c1485c2bcd": {
 			"parent": "feed11f6954c262c",
@@ -157,12 +52,6 @@
 				}
 			}
 		},
-		"feedb29c5a0066ff": {
-			"parent": "feed11f6954c262c",
-			"name": "zboxreflectionentity",
-			"factory": "[modules:/zboxreflectionentity2.class].pc_entitytype",
-			"blueprint": "[modules:/zboxreflectionentity2.class].pc_entityblueprint"
-		},
 		"feed346fa4f2a154": {
 			"parent": "feedf2c1485c2bcd",
 			"name": "steel_stainless_clean_a",
@@ -179,7 +68,9 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedf2c1485c2bcd"]
+					"value": [
+						"feedf2c1485c2bcd"
+					]
 				},
 				"ConstantVector1D_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -200,14 +91,30 @@
 			}
 		}
 	},
-	"propertyOverrides": [],
-	"overrideDeletes": [],
-	"pinConnectionOverrides": [],
-	"pinConnectionOverrideDeletes": [],
-	"externalScenes": [],
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [],
-	"extraBlueprintDependencies": [],
-	"comments": []
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
 }
